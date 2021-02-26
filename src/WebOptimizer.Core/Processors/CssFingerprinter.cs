@@ -58,7 +58,7 @@ namespace WebOptimizer
                     dir = env.WebRootPath;
                 }
 
-                var info = new FileInfo(Path.Combine(dir, pathOnly.TrimStart('/')));
+                var info = new FileInfo(dir == null ? pathOnly : Path.Combine(dir, pathOnly.TrimStart('/')));
 
                 if (!info.Exists)
                 {
