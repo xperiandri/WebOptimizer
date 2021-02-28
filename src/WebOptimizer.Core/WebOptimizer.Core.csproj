@@ -21,8 +21,8 @@
 
   <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="NUglify" Version="1.6.4" />
-    <PackageReference Include="System.Text.Json" Version="4.7.2" />
+    <PackageReference Include="NUglify" Version="1.13.3" />
+    <PackageReference Include="System.Text.Json" Version="5.0.1" />
   </ItemGroup>
 
   <ItemGroup>
